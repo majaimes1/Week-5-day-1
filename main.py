@@ -79,8 +79,8 @@ raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
 #################################################booleans######################################################
 # booleans
 # a boolean can only have 2 values -- true or False
-# my_bool = 5 > 4
-#print(my_bool)
+my_bool = 5 > 4
+print(my_bool)
 
 # > greater
 # < less
@@ -90,26 +90,33 @@ raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
 # != different or not equal to
 
 # you can also construct booleans to see if values ar in a variable or not found
+# my_list[1,2,3,4,5]
 # my_ bool = 5 in my_list
 # my_bool = 5 not in my_list
-
+my_num = 54
+my_num2 = 2223
+my_result = my_num2 <= 54
+print(my_result)
 # so we can see if we can make logical decisions if something is true or not
 # var1 = True
 # var2 = False
 # print(type(var1))
 # print(var1)
 
-# list = [1,2,3,4,5,6]
-# control = 5 in list
-# print(type(control))
-# print(control)
+list = [1,2,3,4,5,6]
+control = 5 in list
+print(type(control))
+print(control)
 
 # Booleans Practice
 
 # Make a comparison that returns a boolean and store the result (True/False) in a variable called test
 
 # Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
-
+num_3 = 17834/34 
+num_4 = 87 * 56
+result = num_3 > num_4
+print(result)
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
 
 
